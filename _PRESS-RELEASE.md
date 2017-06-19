@@ -17,28 +17,29 @@ Once the project moves into development, the press release can be used as a touc
  -->
  
 ## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
+  > Digital library
 
 ## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  > Booklovers will get a usefull app to keep track of books in their library.
+
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  >This digital library will allow you to search for books in your library and add or remove books. Forget about headache of keeping track of all your books. Now you can with ease find any book in your library.
 
 ## Problem ##
-  > Describe the problem your product solves.
+  > Instead of searching manually through your file system trying to find the book you want, this app will allow you to find it with ease just typing the name in the search box.
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+  > Type the name of the book in the search box if you want to find it. Type the name of the book in the add book input box to add a new book.
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
+  > “We care about our customers’ time, so we developed a fast and reliable library for their use.”
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+  > Just go to www.localhost.com and add your first book.
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  > "This app saved me a tonn of time!"
 
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+  > "So if you’re looking for knowledge, a rewarding adventure, and the advantage a future perspective can offer, read books through Digital library!"
