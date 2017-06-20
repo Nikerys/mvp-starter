@@ -11,7 +11,7 @@ class Search extends React.Component {
   }
 
   render() {
-    return (
+    return(
       <div>
         <input
           type="text"
@@ -19,7 +19,8 @@ class Search extends React.Component {
           value={this.props.filterText}
           onChange={this.handleFilterTextInputChange}
         />
-      </div>)
+      </div>
+    )
   }
 }
 
