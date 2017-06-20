@@ -27,4 +27,5 @@ var selectAll = function(callback) {
   });
 };
 
+module.exports.book = Book;
 module.exports.selectAll = selectAll;

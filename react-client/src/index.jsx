@@ -12,8 +12,9 @@ class App extends React.Component {
     super(props);
     this.state = {
       filterText: '',
+      refresh: true,
       newBook: {name: ''},
-      books: [{name: "Harry Potter"}, {name: "The Lord of the Rings"}]
+      books: []
     }
     this.handleFilterTextInput = this.handleFilterTextInput.bind(this);
     this.handleNewBookInput = this.handleNewBookInput.bind(this);
@@ -27,6 +28,11 @@ class App extends React.Component {
   }
 
   handleNewBookBtnClick() {
+    $.post("http://127.0.0.1:3000/", this.state.newBook.name);
+    // this.setState({
+    //   refresh: !this.state.refresh
+    // });
+    // console.log(this.state.refresh);
     var booksData = update(this.state.books, {
       $push: [this.state.newBook]
     });
@@ -53,7 +59,8 @@ class App extends React.Component {
       url: '/books',
       success: (data) => {
         this.setState({
-          books: data
+          books: data,
+          refresh: data
         });
       },
       error: (err) => {

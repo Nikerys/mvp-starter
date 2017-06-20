@@ -8,7 +8,7 @@ class List extends React.Component {
       if (book.name.indexOf(this.props.filterText) === -1) {
         return;
       }
-      rows.push(<ListItem book={book} key={book.name}/>);
+      rows.push(<ListItem book={book} key={book._id}/>);
     });
     return(
       <table>
